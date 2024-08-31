@@ -1,0 +1,31 @@
+{
+  "name": "fastify_boilerplate",
+  "version": "1.0.0",
+  "description": "Fastify boilerplate",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js",
+    "dev": "tsnd --inspect --rs -- ./index.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OlehSh/fastify_boilerplate.git"
+  },
+  "author": "Oleh Shubin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlehSh/fastify_boilerplate/issues"
+  },
+  "homepage": "https://github.com/OlehSh/fastify_boilerplate#readme",
+  "dependencies": {
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
